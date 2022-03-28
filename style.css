@@ -1,0 +1,116 @@
+body {
+    background-color: #F5F6FA;
+    margin: 0px;
+    padding: 0px;
+}
+
+.app {
+    margin: auto;
+    margin-top: 50px;
+    width: 50vw;
+    background-color: #FFFFFF;
+}
+
+p, h6 {
+    padding: 5px;
+    margin: 0px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+p {
+    font: 14px normal "Open Sans";
+}
+
+h6 {
+    font-family: "Open Sans";
+    font-size: 15px;
+}
+
+.message {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px lightgray solid;
+    border-right: 1px lightgray solid;
+    border-bottom: 1px lightgray solid;
+}
+
+.message:hover {
+    background-color: #F5F5F5;
+}
+
+.avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.bin {
+    width: 20px;
+    height: 20px;
+    margin-left: auto;
+}
+
+.bin:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+#message-info {
+    border: 1px lightgray solid;
+    margin: 0px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#message-functions {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-left: 1px lightgray solid;
+    border-right: 1px lightgray solid;
+    border-bottom: 1px lightgray solid;
+}
+
+label {
+    font-size: 14px;
+}
+
+#select-contact {
+    margin-top: 7px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#write-message {
+    display: none;
+    flex-direction: row;
+}
+
+#message-input, #search-input {
+    font-size: 15px;
+    flex: 1;
+    margin-right: 7px;
+    font: 14px normal "Open Sans";
+}
+
+#message-add, #search-button {
+    font: 14px normal "Open Sans";
+    color: #72bcd4;
+    font-size: 15px;
+    background-color: white;
+    border: 1px #72bcd4 solid;
+    border-radius: 10%;
+}
+
+#message-add:hover {
+    cursor: pointer;
+    opacity: 0.7;
+    background-color: lightcyan;
+}

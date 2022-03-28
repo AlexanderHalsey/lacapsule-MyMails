@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Mails</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous">
+    </script>
+  </head>
+
+  <body>
+    <div class="app">
+
+      <div id="message-functions">
+        <div id="select-contact">
+          <strong>
+            Créer un nouveau message:&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          </strong>
+          <div>
+            <label for="contacts">Choisissez un contact</label>
+            <select name="contacts" id="contacts">
+              <option value="----------" selected>--------</option>
+              <option value="2">Elise Watson</option>
+              <option value="1">Noel Paganelli</option>
+              <option value="3">Adam Keval</option>
+              <option value="4">Alexandra Pozi</option>
+              <option value="5">Zoe Millot</option>
+            </select>
+          </div>
+        </div>
+
+        <div id="write-message">
+          <input id="message-input" type="input" placeholder="new message"/>
+          <button id="message-add" type="button">Add</button>
+        </div>
+
+      </div>
+
+      <div id="message-info">
+        <div>
+          <p>
+            Messages total:
+            <span id="message-count">
+              <strong></strong>
+            </span>
+          </p>
+        </div>
+        <div>
+          <input id="search-input" type="input" placeholder="search message" />
+          <button id="search-button" type="button">Search</button>
+        </div>
+      </div>
+
+      <div class="message">
+        <img class="avatar" src="img/avatar-2.jpg" />
+        <div>
+          <h6>Elise Watson</h6>
+          <p>Donec tincidunt nibh interdum urna tempus, ut luctus ligula dapibus. Donec aliquet fringilla venenatis. In euismod erat at est aliquet, vitae ultrices augue finibus.</p>
+        </div>
+        <img class="bin" src="img/trash.png" />
+      </div>
+
+      <div class="message">
+        <img class="avatar" src="img/avatar-1.jpg" />
+        <div>
+          <h6>Noel Paganelli</h6>
+          <p>Maecenas congue euismod tortor, sed finibus elit finibus id. Mauris vitae quam ac elit commodo placerat. Nunc nec lacus nunc. Nullam sed risus volutpat dui aliquam suscipit ac quis ex. Fusce mollis molestie nisi ac posuere. Nulla facilisi. Phasellus faucibus nibh quis rutrum condimentum.</p>
+        </div>
+        <img class="bin" src="img/trash.png" />
+      </div>
+
+      <div class="message">
+        <img class="avatar" src="img/avatar-3.jpg" />
+        <div>
+          <h6>Adam Keval</h6>
+          <p>Morbi semper tortor sit amet erat ultrices blandit. Donec ac dictum nibh.</p>
+        </div>
+        <img class="bin" src="img/trash.png" />
+      </div>
+
+      <div class="message">
+        <img class="avatar" src="img/avatar-4.jpg" />
+        <div>
+          <h6>Alexandra Pozi</h6>
+          <p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur purus nisl, accumsan ac elit id, ultrices suscipit dolor.</p>
+        </div>
+        <img class="bin" src="img/trash.png" />
+      </div>
+
+      <div class="message">
+        <img class="avatar" src="img/avatar-5.jpg" />
+        <div>
+          <h6>Zoe Millot</h6>
+          <p>Curabitur scelerisque molestie sapien, eget viverra arcu blandit lobortis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <img class="bin" src="img/trash.png" />
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+
+</html>
